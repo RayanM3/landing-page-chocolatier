@@ -1,0 +1,146 @@
+body {
+    /* les règles du corp */
+    color: #2E2A26;
+    background-color: #F8F1E8;
+}
+a {
+    text-decoration: none;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+#logo {
+    /* la div de l'icone "logo" */
+    display: flex;
+    justify-items: flex-start;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#logo img {
+    /* img de l'icone logo */
+    height: 70px;
+    width: 70px;
+}
+
+#navigation {
+    /* le ul de la liste */
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 40px;
+    margin-right: 50px;
+    margin-top: -30px;
+}
+#navigation a {
+    /* les liens de la liste */
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+#premierbouton {
+    /* le bouton contact */
+    border: solid 1px black;
+    padding: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: black;
+}
+
+a#premierbouton{
+    color: white;
+}
+
+#premieresection {
+    display: flex;
+}
+
+#paradepremierediv {
+    text-align: center; 
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#deuxbouton {
+    display: flex;
+    gap : 30px;
+    margin-left: 40px;
+}
+#deuxbouton a {
+    text-decoration: none;
+    border: solid 1px black;
+    padding: 8px;
+    background-color: black;
+    color: white;
+}
+
+#premiereimage {
+    margin-top: 30px;
+    }
+    #premiereimage img {
+        width: 700px;
+        height: 700px;
+    }
+
+    .center {
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    #premierarticle {
+        display: flex;
+
+    }
+
+    #premierarticle img{
+        width: 50%; 
+        height: 400px;
+        margin-top: 50px;
+    }
+    #premierearticle ul {
+        text-align: center;
+        text-align: end;
+        margin-bottom: 800px;
+    }
+    #premierarticle a {
+    }
+
+    article img{
+        width:200px;
+    }
+
+    .bouton {
+        border: solid 1px black;
+        padding: 8px;
+        background-color: black;
+        color: white;
+    }
+    #premierarticle a {
+        margin-top: 150px;
+        margin-left: 200px;
+
+    }
+    #premierarticle ul {
+        list-style: none;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    
+    #deuxiemesection h2{
+        text-align: center;
+    }
+    #deuxiemesection div {
+        display: flex;
+        justify-content: center;
+        margin-left: 100px;
+    }
+    #deuxiemesection div img {
+        width: 300px;
+        height: 200px;
+    }
