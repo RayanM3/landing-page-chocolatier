@@ -7,12 +7,13 @@ a {
     text-decoration: none;
 }
 
-h1{
+h1 {
     font-size: 60px;
 }
 
 h2{
     font-size: 40px;
+    text-align: center;
 }
 
 #logo {
@@ -26,6 +27,10 @@ h2{
     /* img de l'icone logo */
     height: 70px;
     width: 70px;
+    transition: 1s;
+}
+#logo img:hover {
+    scale: 1.5;
 }
 
 #navigation {
@@ -44,17 +49,15 @@ h2{
     color: black;
 }
 
-#premierbouton {
+#navigation a#premierbouton {
     /* le bouton contact */
     border: solid 1px black;
     padding: 12px;
     padding-left: 40px;
     padding-right: 40px;
     background-color: black;
-}
-
-a#premierbouton{
     color: white;
+
 }
 
 #premieresection {
@@ -63,7 +66,7 @@ a#premierbouton{
 
 #paradepremierediv {
     text-align: center; 
-    margin-top: 100px;
+    margin-top: 100px; 
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -132,15 +135,141 @@ a#premierbouton{
         font-size: 20px;
     }
     
+    #deuxiemesection {
+        margin-top: 150px;
+    }
     #deuxiemesection h2{
         text-align: center;
     }
     #deuxiemesection div {
         display: flex;
         justify-content: center;
-        margin-left: 100px;
+        text-align: center;
     }
     #deuxiemesection div img {
         width: 300px;
         height: 200px;
     }
+    #deuxiemesection article p {
+        margin-bottom: 30px;
+    }
+    .troisiemebouton {
+        border: solid 1px black;
+        padding: 12px;
+        background-color: black;
+        color: white;
+    }
+
+    #troisiemesection h2 {
+        margin: 100px;
+        text-align: center;
+    }
+    #troisiemesection article {
+        display: flex;
+        margin-top: 100px;
+    }
+
+    .imagegauche {
+        width: 50%;
+        height: 300px;
+    }
+    .imagegauche img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .imagedroite {
+        width: 50%;
+        height: 300px;
+    }
+    .imagedroite img {
+      height: 100%;
+      width: 100%;
+    }
+
+    .textdroite {
+        height: 100%;
+        width: 50%;
+        text-align: center;
+    }
+
+    .textgauche {
+        height: 100%;
+        width: 50%;
+        text-align: center;
+    }
+
+
+    #dernieresection {
+       margin-top: 100px;
+       display: flex;
+       gap: 40px;
+    }
+    #dernieresection h2, #dernieresection h3 {
+        text-align: center;
+        margin-top: -5px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    
+   #dernieresection article {
+        border: solid 1px transparent;
+        background-color: lightgrey;
+        padding: 10px;
+        font-style: italic;
+    }
+
+    .notes {
+        text-align: center;
+        color: green;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+
+    #derniertitre {
+        margin-top: 100px;
+    }
+
+    #selectionfooter {
+        display: flex;
+    }
+    #paragraphefooter {
+        margin: 50px;
+    }
+    #paragraphefooter h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #paragraphefooter h3, #paragraphefooter p {
+        margin-left: 100px;
+    }
+
+
+    #casefooter {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        margin-top: 100px;
+        margin-left: 300px;
+    }
+    #casefooter input {
+        padding: 10px;
+        width: 340px;
+        margin-right: 50px;
+    }
+    #casefooter a {
+        padding: 20px;
+        background-color: black;
+        color: white;
+        margin-right: 300px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+       }
+
+        .droite {
+            display: flex;
+            flex-direction: row-reverse;
+        }
